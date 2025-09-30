@@ -1,5 +1,4 @@
-Полный код:
-Program.cs
+``Program.cs
 using System;
 
 class Program
@@ -353,7 +352,7 @@ public class Barista : Employee
         Console.WriteLine("  Приготовление напитков...");
         Thread.Sleep(1000);
         Console.WriteLine("  Добавление добавок...");
-        Thread.Sleep(500);
+        Thread.Sleep(500);``
 
         order.UpdateStatus(OrderStatus.Ready);
         Console.WriteLine($"  Бариста {Name} завершил приготовление заказа #{order.OrderId}");
